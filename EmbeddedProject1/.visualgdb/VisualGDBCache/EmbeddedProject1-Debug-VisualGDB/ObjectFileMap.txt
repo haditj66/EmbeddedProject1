@@ -1,0 +1,1 @@
+C:\Users\Hadi\source\repos\EmbeddedProject1\EmbeddedProject1\CMakeLists.txt|build.ninja
