@@ -14,7 +14,8 @@
 			"add_library",
 			"add_bsp_based_library",
 			"install",
-			"target_link_libraries"
+			"target_link_libraries",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -29,26 +30,32 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 23,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 202,
+				"line" : 208,
 				"parent" : 1
 			},
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 37,
+				"line" : 95,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 205,
+				"line" : 211,
 				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
 			}
 		]
 	},
@@ -90,6 +97,10 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/visualgdb_projects/EmbeddedProject1/EmbeddedProject1"
+				},
 				{
 					"backtrace" : 4,
 					"path" : "C:/visualgdb_projects/EmbeddedProject1/EmbeddedProject1/."
@@ -188,6 +199,10 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/visualgdb_projects/EmbeddedProject1/EmbeddedProject1"
+				},
 				{
 					"backtrace" : 4,
 					"path" : "C:/visualgdb_projects/EmbeddedProject1/EmbeddedProject1/."

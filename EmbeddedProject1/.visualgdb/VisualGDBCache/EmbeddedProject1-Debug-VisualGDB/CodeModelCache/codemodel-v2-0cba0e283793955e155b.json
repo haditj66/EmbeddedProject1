@@ -83,35 +83,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BSP::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BSP-DEBUG-614f8ad18a9441097f6f.json",
+					"jsonFile" : "target-BSP-DEBUG-055c4e6339af80d9782b.json",
 					"name" : "BSP",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "BSP_com.sysprogs.arm.stm32.hal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BSP_com.sysprogs.arm.stm32.hal-DEBUG-13db878be86ecfae498d.json",
+					"jsonFile" : "target-BSP_com.sysprogs.arm.stm32.hal-DEBUG-67cf7e556c2f840c6a2a.json",
 					"name" : "BSP_com.sysprogs.arm.stm32.hal",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "BSP_com.sysprogs.arm.stm32.ll::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BSP_com.sysprogs.arm.stm32.ll-DEBUG-d437107896bc82fcf57e.json",
+					"jsonFile" : "target-BSP_com.sysprogs.arm.stm32.ll-DEBUG-63203e5edd3387dae523.json",
 					"name" : "BSP_com.sysprogs.arm.stm32.ll",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "EmbeddedProject1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EmbeddedProject1-DEBUG-747668bd9f1fb8dea5a5.json",
+					"jsonFile" : "target-EmbeddedProject1-DEBUG-8d6964778c1aadf07ab1.json",
 					"name" : "EmbeddedProject1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "EmbeddedProject1-bin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EmbeddedProject1-bin-DEBUG-f07bb988dd9deda198c4.json",
+					"jsonFile" : "target-EmbeddedProject1-bin-DEBUG-630a99f2b19ff94df332.json",
 					"name" : "EmbeddedProject1-bin",
 					"projectIndex" : 0
 				},
@@ -125,7 +125,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LibraryTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LibraryTest-DEBUG-10bd1a7f80f24895f1d7.json",
+					"jsonFile" : "target-LibraryTest-DEBUG-54a53cdbbee041fae22e.json",
 					"name" : "LibraryTest",
 					"projectIndex" : 0
 				}
