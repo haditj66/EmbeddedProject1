@@ -83,7 +83,7 @@ target_link_libraries(EmbeddedProject1 PRIVATE LibraryTest)
 ###################################################
 
 
-
+set(blabla ${CMAKE_CURRENT_SOURCE_DIR})
 
 
 
