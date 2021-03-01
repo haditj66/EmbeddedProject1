@@ -42,7 +42,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 96,
+				"line" : 98,
 				"parent" : 0
 			},
 			{
@@ -54,7 +54,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 63,
+				"line" : 65,
 				"parent" : 0
 			}
 		]
@@ -277,13 +277,13 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "BSP::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "BSP_com.sysprogs.arm.stm32.hal::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "BSP_com.sysprogs.arm.stm32.ll::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "BSP::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "LibraryTest::@6890427a1f51a3e7e1df",

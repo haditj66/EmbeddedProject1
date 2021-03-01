@@ -22,7 +22,8 @@
 						0,
 						1,
 						2,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -58,7 +59,8 @@
 						0,
 						1,
 						2,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -107,8 +109,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LibraryTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LibraryTest-DEBUG-a81928bd0136aaf07a0b.json",
+					"jsonFile" : "target-LibraryTest-DEBUG-68cdd76e935fde291f09.json",
 					"name" : "LibraryTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LibraryTest2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LibraryTest2-DEBUG-beddaceeebcfc3af875f.json",
+					"name" : "LibraryTest2",
 					"projectIndex" : 0
 				}
 			]
