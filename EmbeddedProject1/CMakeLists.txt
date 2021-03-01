@@ -70,10 +70,11 @@ target_include_directories(LibraryTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 #target_include_directories(LibraryTest2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 	
-#add_bsp_based_executable(NAME EmbeddedProject1
-	#SOURCES EmbeddedProject1.cpp system_stm32f4xx.c stm32f4xx_hal_conf.h
-	#GENERATE_BIN
-	#GENERATE_MAP)
+add_bsp_based_executable(NAME EmbeddedProject1
+	SOURCES EmbeddedProject1.cpp system_stm32f4xx.c stm32f4xx_hal_conf.h
+	GENERATE_BIN
+	GENERATE_MAP)
+target_link_libraries(EmbeddedProject1 PRIVATE LibraryTest)  
 
 	#add_executable(EmbeddedProject2 mainTest.cpp)
 
@@ -87,7 +88,7 @@ target_include_directories(LibraryTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 #target_link_libraries(EmbeddedProject1 PRIVATE LibA)  # mylib is from "child"
 
-#target_link_libraries(EmbeddedProject1 PRIVATE LibraryTest)  
+#
 ###################################################
 
 
