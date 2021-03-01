@@ -26,7 +26,7 @@ message("SET_ALL_NEEDED_VARS_MANUALLY-------------${SET_ALL_NEEDED_VARS_MANUALLY
 
 project(EmbeddedProject1 LANGUAGES C CXX ASM)
 
-
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 ###################################################
 #getting bsp libraries needed to link in add_bsp_based_executable
@@ -84,6 +84,7 @@ target_link_libraries(EmbeddedProject1 PRIVATE LibraryTest)
 
 
 set(blabla ${CMAKE_CURRENT_SOURCE_DIR})
+message("blabla*********************${blabla}")
 
 
 

@@ -104,7 +104,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "EmbeddedProject1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EmbeddedProject1-DEBUG-8d6964778c1aadf07ab1.json",
+					"jsonFile" : "target-EmbeddedProject1-DEBUG-6b601ef33fd64af68d04.json",
 					"name" : "EmbeddedProject1",
 					"projectIndex" : 0
 				},
@@ -125,7 +125,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LibraryTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LibraryTest-DEBUG-54a53cdbbee041fae22e.json",
+					"jsonFile" : "target-LibraryTest-DEBUG-fb4146a8c21cf2c0672b.json",
 					"name" : "LibraryTest",
 					"projectIndex" : 0
 				}
