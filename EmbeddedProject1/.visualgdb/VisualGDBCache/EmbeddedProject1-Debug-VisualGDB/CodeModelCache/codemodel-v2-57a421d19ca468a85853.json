@@ -22,9 +22,7 @@
 						0,
 						1,
 						2,
-						3,
-						4,
-						6
+						4
 					]
 				},
 				{
@@ -38,7 +36,7 @@
 					"source" : "build/VisualGDB/Debug/_deps/child-src",
 					"targetIndexes" : 
 					[
-						5
+						3
 					]
 				}
 			],
@@ -60,9 +58,7 @@
 						0,
 						1,
 						2,
-						3,
-						4,
-						6
+						4
 					]
 				},
 				{
@@ -74,7 +70,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						3
 					]
 				}
 			],
@@ -102,20 +98,6 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "EmbeddedProject1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EmbeddedProject1-DEBUG-36e40ed7f15d66aaa41d.json",
-					"name" : "EmbeddedProject1",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "EmbeddedProject1-bin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EmbeddedProject1-bin-DEBUG-630a99f2b19ff94df332.json",
-					"name" : "EmbeddedProject1-bin",
-					"projectIndex" : 0
-				},
-				{
 					"directoryIndex" : 1,
 					"id" : "LibA::@404e547415a8db299bbc",
 					"jsonFile" : "target-LibA-DEBUG-89ac6f146a54ec48390e.json",
@@ -125,7 +107,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LibraryTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LibraryTest-DEBUG-5293b429de3f4accff81.json",
+					"jsonFile" : "target-LibraryTest-DEBUG-a81928bd0136aaf07a0b.json",
 					"name" : "LibraryTest",
 					"projectIndex" : 0
 				}

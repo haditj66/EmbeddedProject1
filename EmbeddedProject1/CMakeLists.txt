@@ -62,10 +62,10 @@ add_bsp_based_library(NAME LibraryTest
 #this is needed for if other projects try to link against this LibraryTest one via fetchcontent.
 target_include_directories(LibraryTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 	
-add_bsp_based_executable(NAME EmbeddedProject1
-	SOURCES EmbeddedProject1.cpp system_stm32f4xx.c stm32f4xx_hal_conf.h
-	GENERATE_BIN
-	GENERATE_MAP)
+#add_bsp_based_executable(NAME EmbeddedProject1
+	#SOURCES EmbeddedProject1.cpp system_stm32f4xx.c stm32f4xx_hal_conf.h
+	#GENERATE_BIN
+	#GENERATE_MAP)
 
 	#add_executable(EmbeddedProject2 mainTest.cpp)
 
@@ -79,7 +79,7 @@ add_bsp_based_executable(NAME EmbeddedProject1
 
 #target_link_libraries(EmbeddedProject1 PRIVATE LibA)  # mylib is from "child"
 
-target_link_libraries(EmbeddedProject1 PRIVATE LibraryTest)  
+#target_link_libraries(EmbeddedProject1 PRIVATE LibraryTest)  
 ###################################################
 
 
