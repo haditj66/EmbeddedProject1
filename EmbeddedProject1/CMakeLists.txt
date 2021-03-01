@@ -32,7 +32,7 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 #getting bsp libraries needed to link in add_bsp_based_executable
 ###################################################
 
-if(DEFINED FROM_A_FETCH)  
+if(NOT DEFINED BSP_ALREADY_FOUND)  
 
 find_bsp(ID com.sysprogs.arm.stm32
 	VERSION 2021.02
@@ -40,6 +40,8 @@ find_bsp(ID com.sysprogs.arm.stm32
 	FRAMEWORKS com.sysprogs.arm.stm32.hal com.sysprogs.arm.stm32.ll
 	HWREGISTER_LIST_FILE STM32F4xxxx/DeviceDefinitions/stm32f401xe.xml)
 endif()
+set(BSP_ALREADY_FOUND TRUE)
+
 
 ###################################################
 #Fetching content example
@@ -61,10 +63,12 @@ FetchContent_MakeAvailable(child)
 ###################################################
 add_bsp_based_library(NAME LibraryTest  
 	SOURCES  system_stm32f4xx.c stm32f4xx_hal_conf.h MyAdder.h MyAdder.cpp)
-add_library( LibraryTest2   MyAdder.h MyAdder.cpp)
-target_include_directories(LibraryTest2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 #this is needed for if other projects try to link against this LibraryTest one via fetchcontent.
 target_include_directories(LibraryTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+#add_library( LibraryTest2   MyAdder.h MyAdder.cpp)
+#target_include_directories(LibraryTest2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
 	
 #add_bsp_based_executable(NAME EmbeddedProject1
 	#SOURCES EmbeddedProject1.cpp system_stm32f4xx.c stm32f4xx_hal_conf.h
